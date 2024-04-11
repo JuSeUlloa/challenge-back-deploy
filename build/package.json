@@ -1,0 +1,31 @@
+{
+  "name": "backsnacks",
+  "version": "1.0.0",
+  "description": "API express for get all products and  special price products by users ",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "dev": "nodemon build/index.js"
+  },
+  "keywords": [
+    "API",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Juan Ulloa",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "@types/morgan": "^1.9.9",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}
